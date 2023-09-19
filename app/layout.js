@@ -4,15 +4,15 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 import Link from 'next/link'
 
 export const metadata = {
-  title: 'Internshala App',
+  title: 'Jobify App',
 }
 
 export default function RootLayout({ children }) {
+  
   return (
     <html lang="en">
       <body suppressHydrationWarning>
         <Wrapper>
-          <Link href='/' className='btn btn-success m-3'>Ghar</Link>
           {children}</Wrapper>
       </body>
     </html>

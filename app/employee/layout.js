@@ -6,6 +6,7 @@ import React, { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 
 const Employeelayout = ({ children }) => {
+  console.log(children.props)
   const dispatch = useDispatch();
   const router = useRouter();
   const {isAuthenticated} = useSelector((state) => state.employeeReducer);

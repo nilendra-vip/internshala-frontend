@@ -1,0 +1,16 @@
+.signinContainer{
+    width: 100%;
+    height: 88vh;
+    background-color: #28e1bf;
+    position: relative;
+}
+.input{
+    outline: #28e1bf;
+}
+.wave{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}

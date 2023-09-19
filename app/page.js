@@ -1,6 +1,8 @@
 'use client';
 import Link from "next/link";
 import React, { useEffect } from "react";
+import style from "./page.module.css";
+import HomeNavbar from "@/components/Navbar/homeNavbar";
 
 export const metadata = {
   title: "Homepage",
@@ -10,12 +12,8 @@ const page = () => {
   
   
   return (
-    <div>
-      <h1>Global Homepage</h1>
-      <br />
-      <Link href="/student" className="btn btn-primary">Student</Link>
-      <br /><br />
-      <Link href="/employee" className="btn btn-primary">Employee</Link>
+    <div className={`${style.homepage}`} >
+      <HomeNavbar />
     </div>
   );
 };
